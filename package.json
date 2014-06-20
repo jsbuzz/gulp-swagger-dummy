@@ -1,6 +1,6 @@
 {
   "name": "gulp-swagger-dummy",
-  "version": "0.7",
+  "version": "0.0.1",
   "description": "Create dummy JSON from swagger docs",
   "keywords": [
     "gulpplugin"
