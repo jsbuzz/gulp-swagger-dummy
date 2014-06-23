@@ -81,7 +81,7 @@ function createTemplates(json, stream, done) {
 					itemType = property.items.type;
 					itemType = itemType in propertyMap ? propertyMap[itemType] : itemType;
 				}
-				template += '[\n' + tab(3) + '{{repeat 0 10}}\n';
+				template += '[\n' + tab(3) + '{{#repeat 0 10}}\n';
 				template += '' + tab(3) + '{{' + itemType + '}}';
 				template += '\n' + tab(3) + '{{/repeat}}\n' + tab(2) + ']';
 			} else if (property.enum) {
